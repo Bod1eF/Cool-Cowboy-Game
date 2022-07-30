@@ -1,0 +1,84 @@
+@font-face {
+  font-family: brotherland;
+  src: url("../fonts/Brotherlands.ttf");
+}
+@font-face {
+  font-family: gin;
+  src: url("../fonts/gin.otf");
+}
+
+iframe {
+  display:none;
+}
+
+.hidden {
+  display:none;
+  width:0;
+  height:0;
+  position:absolute;
+}
+
+
+.stats, .onward {
+  margin-top:10vmax;
+  margin-left:25vmax;
+  width: 800px;
+  font-size:25px;
+  text-align:center;
+  color:#430804;
+  font-family:brotherland;
+  line-height: 2em;
+}
+
+.onward{
+  margin-top: 10px;
+  font-size: 35px;
+}
+
+#warning_text{
+  font-family:brotherland;
+  color:#430804;
+  font-size: 35px;
+  text-align:center;
+  width: 1000px;
+  margin: 30px auto;
+  line-height: 2em;
+}
+
+#timer {
+  margin:1vmax;
+  position:absolute;
+  font-family:sans-serif;
+  color:#430804;
+  font-size:3vmax;
+  text-align:center;
+}
+
+#boss {
+  height: 10%;
+  width: 10%;
+  margin: 300px;
+}
+
+b{
+  font-family: serif;
+}
+
+
+#new {
+  display:block;
+  margin:0.5vmax;
+  font-size:3vmax;
+  text-align:center;
+  color:#430804;
+  font-family:Brotherland;
+  border:0.3vmax solid #430804;
+  border-radius:0.8vmax;
+  padding:0.6vmax
+}
+
+#new:hover {
+  color:#86160D;
+  border:0.3vmax solid #86160D;
+  border-radius:2vmax;
+}

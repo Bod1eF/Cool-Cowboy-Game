@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Brotherland;
+  src: url(../fonts/Brotherlands.ttf);
+}
+
+@font-face {
+  font-family: Gin;
+  src: url(../fonts/gin.otf);
+}
+
+body{
+  background-image: url("../img/npc_bg.jpeg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-color:brown;
+}
+
+h1{
+  font-family: "Brotherland";
+  font-size: 50px;
+  text-align: center;
+}
+#convo{
+  width: 60%;
+  margin: auto;
+  border: 5px solid black;
+  background: rgba(143, 118, 84, 0.9);
+  color: black;
+  padding: 1%;
+}
+p{
+  font-family: "Gin";
+}
+h2{
+  margin-left: 38%;
+  background-color: #8f7654;
+  color: black;
+  border: 5px solid black;
+  padding: 1%;
+  width: 20%;
+}

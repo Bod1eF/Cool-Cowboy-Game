@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Brotherland;
+  src: url("../fonts/Brotherlands.ttf");
+}
+
+@font-face {
+  font-family: Gin;
+  src: url("../fonts/gin.otf");
+}
+
+body{
+  cursor:pointer;
+  font-family: "Gin";
+  color:black;
+  background-image: url("../img/romanceEncounterBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding:3vmax;
+}
+
+.hidden {
+  display:none;
+}
+
+#first {
+  font-size:2vmax;
+  text-align:center;
+}
+
+#options {
+  font-size:1.5vmax;
+  text-align:center;
+}
+
+.option {
+  border: 0.2vmax solid black;
+  border-radius:0.4vmax;
+  padding:0.3vmax;
+  font-size:1vmax;
+  margin:0.5vmax;
+}
+
+.option:hover {
+  color:#C23625;
+  border: 0.2vmax solid #C23625;
+  border-radius:0.8vmax;
+}
+
+.stats {
+  font-size:1.5vmax;
+  text-align:center;
+  font-family:sans-serif;
+}
+
+.response, .response1, .response2, .response3 {
+    font-size:1.5vmax;
+}
+
+a {
+  color:black;
+}
+
+.died {
+  font-size:2.5vmax;
+  color:#FD2229;
+}
